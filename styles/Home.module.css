@@ -1,0 +1,27 @@
+.headerHomeContainer li {
+  font-family: 'HiroshigeStd-Bold';
+  display: inline;
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.headerHomeContainer {
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+  color: white;
+}
+
+.gif {
+  text-align: center;
+}
+
+.icon {
+  height: 15px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 600px){
+  
+}

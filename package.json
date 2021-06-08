@@ -1,0 +1,28 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@netlify/plugin-nextjs": "^3.4.2",
+    "axios": "^0.21.1",
+    "next": "^10.2.3",
+    "next-images": "^1.6.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-map-gl": "^6.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "prettier": "^2.2.1"
+  },
+  "description": "This is a starter template for [Learn Next.js](https://nextjs.org/learn).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
