@@ -5,7 +5,9 @@ import Head from 'next/head'
 export default function MyApp({ Component, pageProps }) {
   return (
     <div>
-      <Head></Head>
+      <Head>
+        <title>FRANGE RADICALE</title>
+      </Head>
       <Component {...pageProps} />
     </div>
   )
