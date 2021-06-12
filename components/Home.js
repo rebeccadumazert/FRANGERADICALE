@@ -23,9 +23,21 @@ export function Home() {
           <Link href='/instagram'>Galerie</Link>
         </li>
         <li>
-          <img src={instagram} className={icon} alt='instagram icon' />
-          <img src={facebook} className={icon} alt='facebook icon' />
-          <img src={google} className={icon} alt='google icon' />
+          <Link href='https://www.instagram.com/frangeradicale/?hl=fr'>
+            <a target='_blank'>
+              <img src={instagram} className={icon} alt='instagram icon' />
+            </a>
+          </Link>
+          <Link href='https://www.facebook.com/frangeradicale'>
+            <a target='_blank'>
+              <img src={facebook} className={icon} alt='facebook icon' />
+            </a>
+          </Link>
+          <Link href='https://www.google.com/maps/place/Frange+Radicale/@48.877332,2.386286,15z/data=!4m5!3m4!1s0x0:0x96a682e176a15ee0!8m2!3d48.877332!4d2.386286'>
+            <a target='_blank'>
+              <img src={google} className={icon} alt='google icon' />
+            </a>
+          </Link>
         </li>
       </ul>
       <div className={gif}>
