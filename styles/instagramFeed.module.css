@@ -10,7 +10,6 @@
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  margin: 300px;
   margin: 100px 300px 0px 300px;
 }
 
@@ -24,5 +23,26 @@
 
 .containerInstaPix {
   padding: 5px;
-  flex: 0 0 29.333333%;
+  flex: 1 0 29.333333%;
+}
+
+@media screen and (max-width: 1200px) {
+  .instaFeedContainer {
+    margin: 100px 200px 0px 200px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .instaFeedContainer {
+    margin: 100px 100px 0px 100px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .containerInstaPix {
+    flex: 1 0 50%;
+  }
+  .instaFeedContainer {
+    margin: 100px 50px 0px 50px;
+  }
 }
