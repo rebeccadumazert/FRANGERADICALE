@@ -31,6 +31,7 @@ function Tarifs() {
             </tbody>
           </table>
           <hr className={style.verticalHr} />
+          <div className={style.tabLine}></div>
           <table>
             <tbody>
               <tr>
@@ -66,6 +67,7 @@ function Tarifs() {
             </tbody>
           </table>
           <hr className={style.verticalHr} />
+          <div className={style.tabLine}></div>
           <table>
             <tbody>
               <tr>
