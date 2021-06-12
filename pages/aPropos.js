@@ -24,7 +24,7 @@ function APropos() {
           Frange Radicale est une coopérative de coiffeur·se·s ayant pour but de
           rendre la coiffure plus inclusive, plus solidaire et plus écologique.
         </p>
-        <div className={blackLine}></div>
+        {/* <div className={blackLine}></div> */}
         <div className={pictureAndText}>
           <div className={pictureContainer}>
             <img src={picture} alt='' />
