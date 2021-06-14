@@ -64,6 +64,12 @@
 
 @media screen and (max-width: 950px) {
   .container {
-    margin: 100px 50px;
+    margin: 100px 10px;
+  }
+  .pictureAndText {
+    padding: 10px 0px;
+  }
+  .intro {
+    font-size: 26px;
   }
 }
