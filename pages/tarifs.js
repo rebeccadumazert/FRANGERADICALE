@@ -12,7 +12,7 @@ function Tarifs() {
       <Header></Header>
       <div className={style.container}>
         <p>Pour un devis personnalisé, contactez-nous par mail ou téléphone.</p>
-        <div className={style.blackLine}></div>
+        <div className={style.blackLine} />
         <div className={style.tableContainer}>
           <table>
             <tbody>
@@ -81,7 +81,44 @@ function Tarifs() {
             </tbody>
           </table>
         </div>
-        <div className={style.blackLine}></div>
+        <div className={style.mobilePrice}>
+          <p>
+            <span>Coupe tondeuse :</span> 15€
+          </p>
+          <p>
+            <span>Coupe courte :</span> 25€
+          </p>
+          <p>
+            <span>Coupe longue :</span> 35€
+          </p>
+          <p>∴</p>
+          <p>
+            <span>Couleur racines :</span> 35€
+          </p>
+          <p>
+            <span>Coupleur complète :</span> 55€
+          </p>
+          <p>
+            <span> Balayage : </span>45€ à 80€
+          </p>
+          <p>
+            <span>Patine : </span>15€ à 35€
+          </p>
+          <p>
+            <span>Décoloration racines :</span> 80€
+          </p>
+          <p>
+            <span>Décoloration totale : </span>160€ à 200€
+          </p>
+          <p>∴</p>
+          <p>
+            <span>Séchage naturel : </span>15€
+          </p>
+          <p>
+            <span>Brushing : </span>25 à 35€
+          </p>
+        </div>
+        <div className={style.blackLine} />
       </div>
     </>
   )
