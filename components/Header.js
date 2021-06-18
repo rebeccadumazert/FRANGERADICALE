@@ -53,7 +53,13 @@ export function Header() {
           <img src={menu} alt='menu' />
         </button>
       </div>
-      <div style={{ display: showMe ? 'block' : 'none' }}>
+      <div
+        style={{
+          display: showMe ? 'block' : 'none',
+          border: 'solid 1px black',
+          marginTop: '60px',
+        }}
+      >
         <ul className={headerMenuMobile}>
           <li>
             <Link href='/aPropos'>À propos</Link>

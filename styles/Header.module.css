@@ -56,10 +56,10 @@
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 0;
+    padding: 40px;
     text-align: center;
     font-size: x-large;
-    margin-top: 150px;
+    list-style-type: none;
   }
   .headerMenuMobile a {
     color: black;
