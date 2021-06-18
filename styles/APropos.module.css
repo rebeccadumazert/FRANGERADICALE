@@ -14,34 +14,15 @@
   font-family: 'HiroshigeStd';
 }
 
-.blackLine {
-  margin: 100px 0;
-  border-top: 1px solid #000;
-}
-
-.pictureAndText {
-  display: flex;
-  flex-direction: column;
+.text {
   border: solid 1px #18fd94;
   padding: 30px;
-}
-
-.pictureContainer {
-  display: none;
-}
-
-.pictureContainer > img {
-  width: 100%;
 }
 
 @media screen and (max-width: 1350px) {
   .container {
     margin: 150px 200px;
   }
-  /* .pictureAndText {
-    display: flex;
-    flex-direction: column;
-  } */
 }
 
 @media screen and (min-width: 1100px) {
@@ -66,7 +47,7 @@
   .container {
     margin: 100px 10px;
   }
-  .pictureAndText {
+  .text {
     padding: 10px 0px;
   }
   .intro {
