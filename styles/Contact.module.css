@@ -33,7 +33,7 @@
 }
 
 @media (max-width: 640px) {
-  .containerFormSalon {
-    flex-direction: column;
+  .contactUs {
+    margin: 100px 40px 0px 40px;
   }
 }

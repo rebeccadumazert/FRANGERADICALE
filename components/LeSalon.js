@@ -5,6 +5,7 @@ import style from '../styles/Salon.module.css'
 function Salon() {
   return (
     <div className={style.salonInfo}>
+      <p className={style.mobileTitle}>Le salon</p>
       <div className={style.containerImg}>
         <img src={devantureFrangeRad} alt='' />
       </div>

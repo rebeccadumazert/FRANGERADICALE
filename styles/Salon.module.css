@@ -1,6 +1,7 @@
 .salonInfo {
   font-family: 'HiroshigeStd';
   display: flex;
+  justify-content: center;
   padding: 50px 0px 0px 0px;
 }
 
@@ -30,7 +31,6 @@
 }
 
 .mail {
-  /* text-decoration: none !important; */
   color: black !important;
 }
 
@@ -48,4 +48,26 @@
 }
 .containerImg img {
   width: 100%;
+}
+.mobileTitle {
+  text-align: center;
+  font-family: 'HiroshigeStd-Bold';
+  font-size: x-large;
+}
+
+@media (max-width: 950px) {
+  .title {
+    display: none;
+  }
+  .salonInfo {
+    flex-direction: column;
+  }
+  .salonInfo {
+    padding: 0px;
+  }
+}
+@media (min-width: 950px) {
+  .mobileTitle {
+    display: none;
+  }
 }

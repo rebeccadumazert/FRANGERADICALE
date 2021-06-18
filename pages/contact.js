@@ -1,4 +1,3 @@
-import Form from '../components/Form'
 import Head from 'next/head'
 import { Header } from '../components/Header'
 import Salon from '../components/LeSalon'
@@ -22,10 +21,7 @@ function Contact() {
           10h à 18h.
         </p>
         <div className={style.blackLine}></div>
-        <div
-          className={style.containerFormSalon}
-          style={{ display: 'flex', justifyContent: 'center' }}
-        >
+        <div className={style.containerFormSalon}>
           <Salon></Salon>
         </div>
       </div>
