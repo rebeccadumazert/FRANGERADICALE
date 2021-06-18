@@ -5,10 +5,6 @@
   padding: 50px 0px 0px 0px;
 }
 
-.leSalon {
-  margin: 0px 30px;
-}
-
 .leSalon > p {
   font-size: 35px;
   margin: 0 0 30px;
@@ -43,7 +39,7 @@
 }
 
 .containerImg {
-  margin: 0 30px;
+  margin: 0 auto;
   width: 400px;
 }
 .containerImg img {
@@ -56,6 +52,9 @@
 }
 
 @media (max-width: 950px) {
+  .end {
+    padding-left: 15px;
+  }
   .title {
     display: none;
   }
@@ -64,6 +63,9 @@
   }
   .salonInfo {
     padding: 0px;
+  }
+  .containerImg {
+    width: 315px;
   }
 }
 @media (min-width: 950px) {
