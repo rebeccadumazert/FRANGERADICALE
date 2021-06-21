@@ -5,9 +5,8 @@
   padding: 50px 0px 0px 0px;
 }
 
-.leSalon > p {
-  font-size: 35px;
-  margin: 0 0 30px;
+.leSalon {
+  margin-left: 10px;
 }
 
 .italic {
@@ -60,9 +59,10 @@
   }
   .salonInfo {
     flex-direction: column;
-  }
-  .salonInfo {
     padding: 0px;
+  }
+  .leSalon {
+    margin: 0;
   }
   .containerImg {
     width: 315px;
