@@ -96,7 +96,7 @@ function Tarifs() {
             <span>Couleur racines :</span> 35€
           </p>
           <p>
-            <span>Coupleur complète :</span> 55€
+            <span>Couleur complète :</span> 55€
           </p>
           <p>
             <span> Balayage : </span>45€ à 80€
