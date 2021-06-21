@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import { Header } from '../components/Header'
 import img from '../public/images/fond_dégradé_long.png'
+import salon from '../public/images/salon-about.jpeg'
 import style from '../styles/APropos.module.css'
 
 function APropos() {
-  const { container, description, intro, text } = style
+  const { container, description, intro, text, picture } = style
   return (
     <>
       <Head>
@@ -16,8 +17,12 @@ function APropos() {
           Frange Radicale est une coopérative de coiffeur·se·s ayant pour but de
           rendre la coiffure plus inclusive, plus solidaire et plus écologique.
         </p>
+        <div className={picture}>
+          <img style={{ width: '100%' }} src={salon} alt='' />
+        </div>
         <div className={text}>
           <div>
+            <p style={{ textAlign: 'center' }}>∴</p>
             <p className={description}>
               En décembre 2020, nous avons ouvert Frange Radicale, une
               Coopérative de Coiffure. Frange Radicale est un salon de coiffure
