@@ -14,7 +14,7 @@ function Contact() {
       <div className={style.contactUs}>
         {/* <div className={style.blackLine}></div> */}
         <p className={style.bold}>
-          Pour prendre rendez-vous, appelez-nous au 09.83.76.37.26
+          Pour prendre rendez-vous, appelez-nous au 07.53.53.88.98
         </p>
         <p className={style.book}>
           Nous sommes ouverts du mardi au vendredi de 9h à 20h, et le samedi de
