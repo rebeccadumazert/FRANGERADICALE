@@ -14,8 +14,7 @@ function APropos() {
       <Header></Header>
       <div className={container}>
         <p className={intro}>
-          Frange Radicale est une coopérative de coiffeur·se·s ayant pour but de
-          rendre la coiffure plus inclusive, plus solidaire et plus écologique.
+          Frange Radicale première coopérative de coiffure à Paris.
         </p>
         <div className={picture}>
           <img style={{ width: '100%' }} src={salon} alt='' />

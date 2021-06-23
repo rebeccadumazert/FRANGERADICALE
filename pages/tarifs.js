@@ -11,7 +11,7 @@ function Tarifs() {
       </Head>
       <Header></Header>
       <div className={style.container}>
-        <p>Pour un devis personnalisé, contactez-nous par mail ou téléphone.</p>
+        <p>Pour un devis personnalisé, contactez-nous par téléphone.</p>
         <div className={style.blackLine} />
         <div className={style.tableContainer}>
           <table>

@@ -34,7 +34,7 @@ function Salon() {
             </tr>
             <tr>
               <td className={style.italic}>Téléphone</td>
-              <td className={style.end}>09.83.76.37.26</td>
+              <td className={style.end}>07.53.53.88.98</td>
             </tr>
             <tr>
               <td className={style.socialNetwork}>
